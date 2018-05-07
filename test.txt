@@ -1,6 +1,0 @@
-create_time   update_time
-, ayi_auth_group as b on c.id=a.id,c.id=b.id
-select * from ayi_auth_group_access as c left join ayi_admin as a  (left join ayi_auth_group as b on c.id=b.id) on c.id=a.id
-
-
-select table a left join table b(left join table c on b.id = c.tb_id) on a.id = b_ta.id
